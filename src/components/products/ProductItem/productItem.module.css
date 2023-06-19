@@ -1,0 +1,30 @@
+.card {
+  border: 1px solid var(--gray-color);
+  border-radius: 0.2rem;
+
+  position: relative;
+  word-wrap: break-word;
+  width: 280px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+}
+
+.card-content {
+  padding: var(--padding-4);
+}
+
+.card-vertical {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+input[type="checkbox"] {
+  width: 16px;
+  height: 16px;
+  position: absolute;
+  top: 4px;
+  right: 4px;
+  accent-color: var(--primary);
+  cursor: pointer;
+}

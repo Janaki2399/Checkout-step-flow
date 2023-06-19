@@ -1,0 +1,35 @@
+.step {
+  font-size: 16px;
+  font-weight: 600;
+  color: #696b79;
+  background-color: var(--white-color);
+  border: none;
+  padding: 0;
+  padding-bottom: 2px;
+}
+
+.selected {
+  color: var(--green-color);
+  border-bottom: 2px solid var(--green-color);
+}
+
+.clickable {
+  cursor: pointer;
+}
+
+.steps-wrapper {
+  width: 100%;
+  height: 70px;
+}
+
+.steps {
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+
+  :not(:last-child) {
+    margin-right: 16px;
+  }
+}
