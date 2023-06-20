@@ -19,11 +19,11 @@ const ProductList = () => {
     );
   }
   if (isError) {
-    return <>Error</>;
+    return <>Something went wrong. Try again later</>;
   }
 
   return (
-    <div className={styles["cards-grid"]}>
+    <div className={styles["cards-grid"]} data-testid="product-list">
       {productList?.products.map((product: Product) => {
         return <ProductItem key={product.id} product={product} />;
       })}
