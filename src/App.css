@@ -1,29 +1,13 @@
 :root {
   --primary: #aa3a3a;
   --secondary: #c4c6a6;
-  --padding-1: 0.5rem;
-  --padding-2: 1rem;
-  --padding-3: 4rem;
-  --padding-4: 1rem;
-  --font-size-text: 1.1rem;
-  --font-size-small: 0.8rem;
-  --font-size-title: 01.4rem;
-  --font-family: Roboto;
-  --margin-right: 0.6rem;
-  --margin-1: 1rem;
-  --margin-3: 3rem;
-  --margin-5: 5rem;
   --white-color: #ffffff;
-  --black-color: #000000;
+  --black-color: #282c3f;
   --gray-color: #d1d5db;
+  --gray-color-2: #696b79;
   --light-gray-color: #e5e7eb;
   --red-color: #dc2626;
   --green-color: #10b981;
+  --green-color-2: #3c763d;
   --light-green-color: #dff0d8;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
 }

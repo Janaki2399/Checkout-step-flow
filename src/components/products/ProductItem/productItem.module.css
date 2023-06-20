@@ -10,7 +10,7 @@
 }
 
 .card-content {
-  padding: var(--padding-4);
+  padding: 16px;
 }
 
 .card-vertical {

@@ -8,7 +8,7 @@
 
 .title {
   margin-bottom: 16px;
-  color: #696b79;
+  color: var(--gray-color-2);
   font-size: 14px;
   font-weight: 700;
 }
@@ -22,14 +22,14 @@
   display: flex;
   justify-content: space-between;
   margin-bottom: 16px;
-  color: #696b79;
+  color: var(--gray-color-2);
 }
 
 .total-amount {
   padding-top: 16px;
   border-top: 1px solid var(--gray-color);
   font-weight: 700;
-  color: #282c3f;
+  color: var(--black-color);
 }
 
 .submit-btn {
@@ -60,7 +60,7 @@
 }
 
 .success {
-  color: #3c763d;
+  color: var(--green-color);
   background-color: var(--light-green-color);
   border-color: #d6e9c6;
 }
