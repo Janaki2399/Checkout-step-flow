@@ -40,7 +40,7 @@ describe("ProductItem component", () => {
     });
 
     expect(screen.getByText("Handmade Frozen Table")).toBeInTheDocument();
-    expect(screen.getByText("Rs 662.00")).toBeInTheDocument();
+    expect(screen.getByText("Rs 662")).toBeInTheDocument();
     expect(screen.getByRole("checkbox")).toBeInTheDocument();
   });
 

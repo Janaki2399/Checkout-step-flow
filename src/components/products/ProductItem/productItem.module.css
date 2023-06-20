@@ -28,3 +28,8 @@ input[type="checkbox"] {
   accent-color: var(--primary);
   cursor: pointer;
 }
+
+.product-name {
+  font-weight: 700;
+  color: var(--black-color);
+}

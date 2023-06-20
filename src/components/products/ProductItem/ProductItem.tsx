@@ -13,6 +13,10 @@ const ProductItem = ({ product }: ProductItemProps) => {
     handleProductSelection(product.id, Number(product.price));
   };
 
+  const getProductPrice = () => {
+    return Math.floor(Number(product.price));
+  };
+
   return (
     <div
       className={styles.card}
@@ -20,7 +24,6 @@ const ProductItem = ({ product }: ProductItemProps) => {
       data-testid="product-card"
     >
       <img
-        className="card-img"
         src={product.image}
         width={280}
         height={260}
@@ -28,9 +31,9 @@ const ProductItem = ({ product }: ProductItemProps) => {
         alt="product"
       />
       <div className={styles["card-content"]}>
-        <div className="card-text text-gray font-size-5">{product.name}</div>
+        <div className={styles["product-name"]}>{product.name}</div>
         <div className="card-text font-size-5 font-bold-1">
-          Rs {product.price}
+          Rs {getProductPrice()}
         </div>
       </div>
 
