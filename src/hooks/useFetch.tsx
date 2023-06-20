@@ -3,7 +3,7 @@ import { useEffect, useState } from "react";
 
 const useFetch = (url: string) => {
   const [isLoading, setIsLoading] = useState<boolean>(false);
-  const [response, setResponse] = useState<unknown>(null); //use generics
+  const [response, setResponse] = useState<unknown>(null);
   const [isError, setIsError] = useState<boolean>(false);
 
   useEffect(() => {
