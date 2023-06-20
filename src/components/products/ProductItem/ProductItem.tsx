@@ -24,6 +24,7 @@ const ProductItem = ({ product }: ProductItemProps) => {
         src={product.image}
         width={280}
         height={260}
+        loading="lazy"
         alt="product"
       />
       <div className={styles["card-content"]}>
